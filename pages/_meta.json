@@ -1,15 +1,15 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "🚀 Memulai",
+  "fitur": "🔓 Fitur-fitur MAIA",
+  "basic": "🐏 Tutorial Dasar",
   "about": {
-    "title": "About",
+    "title": "Tentang MAIA",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Kontak ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://maia.id/contact",
     "newWindow": true
   }
 }

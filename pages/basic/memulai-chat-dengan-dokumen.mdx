@@ -1,0 +1,47 @@
+# Upload Dokumen untuk dijadikan Konteks 
+Anda bisa mengupload hingga dua dokumen berformat pdf, docx, txt, dsb sebagai konteks chat.
+
+## Upload dari lokal komputer
+Siapkan dokumen yang akan dijadikan konteks chat dan upload melalui fitur yang tersedia:
+
+![Step 1 - Upload Dokumen](https://res.cloudinary.com/moyadev/image/upload/v1732809025/maia/step1-upload_ivh63a.png)
+
+## Pilih dokumen
+Format file yang didukung ada cukup banyak. Batas maksimal file sebesar 25 mb.
+
+![Step 2 - Pilih file](https://res.cloudinary.com/moyadev/image/upload/v1732809566/maia/step2-pilih_bsmyi8.png)
+
+## Pilihan partisi data
+Split by adalah bagaimana data dipecah-pecah dalam segmen-segmen sehingga memudahkan analisis dokumen. Semakin besar segmennya, semakin akurat tapi membutuhkan resources yang besar juga. Terdapat 3 pilihan segmen yaitu:
+
+1. Page (pilihan default)
+Opsi ini membagi dokumen per-halaman. Ini adalah cara partisi data yang paling umum dan natural sesuai dengan informasi yang tertera di tiap halaman dokumen. Setiap halaman dianggap sebagai satu partisi data. Memudahkan AI untuk menganalisis data halaman demi halaman.
+
+2. Delimiter
+Opsi ini membagi dokumen per-tanda baca seperti **koma** dan **titik**. Paragraf demi paragraf. AI akan menganalisis data berdasarkan pemisah `,` sehingga akurasi datanya bisa lebih padat.
+
+3. Chunk Character Length
+Opsi ini membagi dokumen berdasarkan angka yang spesifik misalkan per 1000 karakter. Semakin besar angka karakter yang diatur, semakin membutuhkan resource yang lebih besar pula namun hasilnya lebih akurat. 
+
+![Step3 - partisi data](https://res.cloudinary.com/moyadev/image/upload/v1732811133/maia/step3-partisiData_yekadw.png)
+
+### Upload dan Baca Dokumen oleh AI
+
+Setelah memilih metode partisi data, upload dokumen dan tunggu hingga proses upload dan parsing (baca) dokumen selesai dilakukan.
+
+![Upload and Parsing Documents](https://res.cloudinary.com/moyadev/image/upload/v1732811524/maia/step4-parsingDocument_s8l4vj.png)
+
+### Sukses Upload
+
+![Documents Uploaded](https://res.cloudinary.com/moyadev/image/upload/v1732811663/maia/step5-success_jlnspe.png)
+
+## Mulai chat dengan dokumen
+
+Setelah dokumen selesai diupload, pengguna bisa langsung memulai chat dengan dokumen yang dijadikan sebagai konteks jawaban oleh AI. Misalnya seperti ini:
+
+![PDF Summarizer](https://res.cloudinary.com/moyadev/image/upload/v1732811922/maia/step6-summarizer_ihxwnu.png)
+
+
+
+
+
