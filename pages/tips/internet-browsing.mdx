@@ -1,0 +1,36 @@
+# Web Search
+
+Terkadang peristiwa-peristiwa kekinian, belum diserap sebagai informasi terbaru dari AI Modelnya. Hal ini disebabkan ada batas data training dari masing-masing AI model (atau kita sebut LLM-Large Language Model) yang biasanya merujuk pada bulan dan tahun tertentu. 
+
+Misalnya ChatGPT masih merujuk pada data training Oktober 2023 meskipun klaimnya sudah menanamkan informasi terbaru hingga November 2024. Sumber referensinya disini: [https://platform.openai.com/docs/models#gpt-4o](https://platform.openai.com/docs/models#gpt-4o)
+
+Tapi jangan khawatir, kita gunakan fitur AI Internet Browsing sebagai tambahan konteks kepada LLM untuk mencari informasi terbaru yang tersebar di internet. Caranya sebagai berikut:
+
+## Tanpa Internet Browsing
+
+Misalkan ada prompt seperti ini:
+`Carikan informasi tentang Labubu`
+
+> fun fact, Labubu adalah sesuatu yang populer di akhir 2024, melampaui data training dari LLM
+
+Dan ini contoh apabila belum mengaktifkan fitur **Internet Browsing**
+
+![Tanpa Internet Browsing](https://res.cloudinary.com/moyadev/image/upload/v1733046062/maia/tips1-noInetBrowsing_j0vkvd.png)
+
+Informasinya benar, tapi tidak kontekstual. 
+
+## Dengan Internet Browsing
+
+Pertanyaan yang sama namun sembari mengaktifkan fitur internet browsing:
+
+![Activated Internet Browsing](https://res.cloudinary.com/moyadev/image/upload/v1733046667/maia/tips1-internetBrowsing_o5axzq.png)
+
+Masukkan pertanyaan yang sama, misalnya seperti ini:
+
+`Carikan informasi tentang Labubu`
+
+hasil dengan mengaktifkan fitur Internet Browsing:
+
+![With Internet Browsing](https://res.cloudinary.com/moyadev/image/upload/v1733047024/maia/tips1-withInetBrowsing_rdahgm.png)
+
+Informasi yang dimunculkan jadi lebih kontekstual sesuai trend kekinian.
