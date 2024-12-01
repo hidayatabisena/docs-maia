@@ -6,6 +6,7 @@
   "prompt": "📃 Prompt Template",
   "tips": "💡 Tips dan Trik",
   "history": "💼 Chat History",
+  "plugins": "🧰 Plugins",
   "about": {
     "title": "Tentang MAIA",
     "type": "page"
