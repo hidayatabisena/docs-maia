@@ -1,0 +1,53 @@
+# Prompt Template
+
+Sama seperti pembahasan tentang `Character` pada tutorial sebelumnya, untuk membuat Prompt tertentu yang sesuai kebutuhan dan digunakan kapan saja, caranya sebagai berikut:
+
+## Mengakses Template Prompt
+
+Klik pada tombol `Prompt` disebelahnya tombol `Character`:
+
+![Prompt Template](https://res.cloudinary.com/moyadev/image/upload/v1733039999/maia/step1-promptTemplate_onuwce.png)
+
+akan muncul sidemenu seperti ini:
+
+![Prompt Action](https://res.cloudinary.com/moyadev/image/upload/v1733040540/maia/step2-promptAction_s1sxfy.png)
+
+## Cara Menggunakan Prompt Template
+
+Secara umum fiturnya mirip seperti yang ada di fitur `Character`. Untuk use case nya sendiri, akan kami contohkan cara membuat template prompt baru untuk kebutuhan spesifik yaitu menterjemahkan bahasa Indonesia ke Bahasa Spanyol. 
+
+Format prompt nya seperti ini:
+
+```bash
+Translate this text from Indonesian to Spanish: {{text}}
+```
+
+Jadi ada dua komponen penting untuk membuat template prompt yaitu:
+1. Konten dari prompt
+2. Prompt variable yang akan secara dinamis membaca inputan dari user. Dalam hal ini ditandai dengan `{}`
+
+Cara untuk membuat templatenya seperti ini:
+
+### 1. Klik pada tombol New Prompt
+Akan muncul jendela seperti ini dan silahkan diisi sesuai dengan konteks yang diinginkan:
+
+![Create Prompt](https://res.cloudinary.com/moyadev/image/upload/v1733041798/maia/step3-createPrompt_tetbvd.png)
+
+### 2. Memanggil prompt
+
+Setelah berhasil membuat prompt, selanjutnya bisa dipanggil pada text chat (seperti contoh berikut) dengan menggunakan tanda `/`:
+
+![Call the Prompt](https://res.cloudinary.com/moyadev/image/upload/v1733042327/maia/step4-callPrompt_bzuuqs.png)
+
+Setelah tekan `Enter`, akan muncul jendela `Text Input` seperti ini (mengikuti Prompt Variable yang sudah dibuat pada saat Create Prompt):
+
+![Action Prompt](https://res.cloudinary.com/moyadev/image/upload/v1733042941/maia/step6-results_xvijsk.png)
+
+AI akan merespon dengan jawaban:
+
+![Results](https://res.cloudinary.com/moyadev/image/upload/v1733043062/maia/step7-resultsFromAI_nas2jx.png)
+
+
+
+
+
