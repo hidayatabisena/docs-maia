@@ -21,10 +21,13 @@ const config: DocsThemeConfig = {
   // chat: {
   //   link: 'https://discord.com',
   // },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/MAIA-ID',
   footer: {
     text: 'MAIA Documentations © 2024',
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1, // Menambahkan konfigurasi ini untuk membuat sidebar collapse secara default
+  }
 }
 
 export default config
